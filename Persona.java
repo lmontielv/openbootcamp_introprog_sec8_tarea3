@@ -1,4 +1,4 @@
-/* TAREA DE SECCIÓN 8 ENCAPSULACIÓN 
+/* TAREA DE SECCIÓN 8 ENCAPSULACIÓN
 Crear clase Persona.
 Crear variables las privadas edad, nombre y telefono de la clase Persona.
 Crear gets y sets de cada propiedad.
@@ -9,7 +9,7 @@ class Persona {
     private int edad;
     private String telefono;
 
-
+    //Métodos sets
     public void setNombre(String nombre){
         this.nombre= nombre;
     }
@@ -22,6 +22,7 @@ class Persona {
         this.telefono = telefono;
     }
 
+    //Métodos gets
     public String getNombre(){
         return this.nombre;
     }

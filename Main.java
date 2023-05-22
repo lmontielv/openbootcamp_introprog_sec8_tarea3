@@ -11,10 +11,12 @@ public class Main {
 
         Persona persona = new Persona();
 
+        //Asignación de valores a las variables privadas por los métodos sets
         persona.setNombre("Luis Montiel");
         persona.setEdad(54);
         persona.setTelefono("+584246398596");
 
+        //Obtención de valores de las variables privadas por los métodos gets
         System.out.println("El nombre de la persona es :");
         System.out.println(persona.getNombre());
         System.out.println("Su edad es :");
